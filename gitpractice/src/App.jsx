@@ -1,20 +1,16 @@
 import React from 'react'
-<<<<<<< HEAD
-
-function App() {
-  return (
-    <div>App</div>
-=======
 import Navbar from './Components/Navbar'
 import Login from './Components/Login'
+import Register from './Components/Register'
 
 function App() {
   return (
     <div>
       <Navbar />
+      <Register/>
       <Login />
     </div>
->>>>>>> 3e44472d56e033378468585ab5759319b751e3b0
+
   )
 }
 
